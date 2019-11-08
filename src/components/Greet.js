@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Greet = function (){
-    return <h1>"Hello Kohli Chi"</h1>
+export const Greet = function (props){
+    return <h1>"Hello {props.name}"</h1>
 }
 
